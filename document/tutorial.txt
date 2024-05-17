@@ -83,3 +83,18 @@ Inside [Locale]
 ==================== Làm tới 35:22 xong mới xuống phần dưới ====================
 
 36:15 Xóa giao diện của [locale] -> page.js
+
+37:20 Handle translations component
+Tạo file components -> UseTranslations.jsx
+
+// Pass the message
+export default function useTranslations({translate}) {
+    return (<div>
+        <p>{translate}</p>
+    </div>);
+}
+
+38:23 Your Translations
+Json Files
+
+40:31 Add Images
