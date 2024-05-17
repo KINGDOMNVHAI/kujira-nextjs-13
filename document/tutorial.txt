@@ -1,0 +1,63 @@
+Next JS 13.4 (using the App Directory) + i18n - Adding translations to your website step by step
+https://www.youtube.com/watch?v=-vzz1L9MQRM
+
+https://next-intl-docs.vercel.app/docs/getting-started/app-router-server-components
+
+NodeJS 18
+
+3:00
+npx create-next-app@latest ./
+
+TypeScript no
+ESLint yes
+tailwindCSS yes
+scr/ directory no
+App Router yes
+import alias no
+
+Vào trang next-intl-docs.vercel.app
+npm install next-intl@3.0.0-beta.19
+
+npm run dev
+
+5:30 Messages Directory
+Theo document, tạo thư mục messages và en.json
+Tạo i18n.js, next.config.js và middleware.js
+Tạo thư mục [locale]
+
+global.css là css chung
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+9:45
+Tạo en.json và copy nội dung trên web.
+Tạo es.json, pt.json tương tự
+
+10:45
+Tạo i18n.js (Lưu ý: trên web là ts, nhưng trong video là js)
+Copy nội dung trên web.
+
+11:50 locale = idiom (do not forget)
+
+next.config.js và middleware.js copy nội dung trên web.
+
+15:50 thư mục [locale]
+Tạo thư mục app -> [locale], mang page.js và layout.js vào [locale]
+
+18:00 thư mục components
+Tạo [locale] -> components -> Footer.jsx
+
+18:50 Using layout.js file
+Navbar & Footer
+
+<body className={inter.className}>
+<Navbar/>
+{children}
+<Footer/>
+</body>
+
+20:00 Variable HTML locale
+Display selected locale
+
+20:40 Locale not found ERROR
