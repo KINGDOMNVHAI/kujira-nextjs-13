@@ -30,6 +30,7 @@ export default function RootLayout({ children, params }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <Footer />
     </html>
   )
 }

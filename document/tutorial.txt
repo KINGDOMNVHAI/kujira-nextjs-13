@@ -61,3 +61,25 @@ Navbar & Footer
 Display selected locale
 
 20:40 Locale not found ERROR
+
+21:25 Setup for ERROR messages
+
+23:35 Display not found messages
+
+26:30 Create Custom Pages
+Inside [Locale]
+
+27:25 About Custom Page
+
+28:15 Metadata SEO Basics
+
+29:35 Const T translations
+
+30:50 Translate browser's tab title
+
+34:15 Contact Custom Page
+35:22 Kiểm tra kết quả npm run dev
+
+==================== Làm tới 35:22 xong mới xuống phần dưới ====================
+
+36:15 Xóa giao diện của [locale] -> page.js
