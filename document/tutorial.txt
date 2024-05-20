@@ -98,3 +98,81 @@ export default function useTranslations({translate}) {
 Json Files
 
 40:31 Add Images
+
+42:25 Importing Images
+Country Flags
+Gắn hình cờ vào nút bấm.
+
+import UK from '../../../public/united-kingdom.png'
+import ES from '../../../public/spain.png'
+import PT from '../../../public/portugal.png'
+
+import { useTranslations } from 'next-intl';
+
+44:10 Using Translation Const
+Navbar Component
+
+45:10 Every single json = every IDIOM
+
+45:35 Build the UI
+export default function Navbar() {
+
+    const t = useTranslations('navbar');
+
+    return (
+        <header className="bg-slate-400 font-bold">
+            <nav className="p-5">
+                <div className="flex justify-end">
+                    <Link href="/" locale="en">
+                        <Image
+                            src={UK}
+                            alt="United Kingdom flag icon"
+                            width={20}
+                            height={20}
+                        />
+                    </Link>
+
+                    <Link href="/" locale="es" className="ml-6">
+                        <Image
+                            src={ES}
+                            alt="Spanish flag icon"
+                            width={20}
+                            height={20}
+                        />
+                    </Link>
+
+                    <Link href="/" locale="pt" className="ml-6">
+                        <Image
+                            src={PT}
+                            alt="Portuguese flag icon"
+                            width={20}
+                            height={20}
+                        />
+                    </Link>
+                </div>
+                <div className="flex justify-start uppercase">
+                    <div className="mr-4">
+                        <Link href={`/`}>{t('home')}</Link>
+                    </div>
+                    <div className="mr-4">
+                        <Link href={`/about`}>{t('about')}</Link>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    )
+}
+
+==================== Cấu trúc template ====================
+layout.js là template gốc. File này chỉ chứa
+
+<body className={inter.className}>{children}</body>
+<Footer />
+
+Trong {children} dẫn đến các file page.js ở app->[locale]
+<Navbar /> để trong file page.js
+
+==================== Giao diện template ====================
+https://tailadmin.com/download
+Download template bản .tsx
+Chuyển dần qua source .jsx
