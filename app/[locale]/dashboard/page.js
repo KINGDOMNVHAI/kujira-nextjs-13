@@ -1,8 +1,10 @@
 import { useTranslations } from 'next-intl';
 import { FaTwitter } from "react-icons/fa";
 
-// import "@/public/asset/youtube-ranking/css/style.css";
-// import "@/public/asset/youtube-ranking/css/bootstrap.min.css";
+// import "jsvectormap/dist/css/jsvectormap.css";
+// import "flatpickr/dist/flatpickr.min.css";
+import "@/public/tailadmin/css/satoshi.css";
+import "@/public/tailadmin/css/style.css";
 
 import Navbar from '../components/admin/Sidebar';
 
