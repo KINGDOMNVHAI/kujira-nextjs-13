@@ -6,7 +6,8 @@ import { FaTwitter } from "react-icons/fa";
 import "@/public/tailadmin/css/satoshi.css";
 import "@/public/tailadmin/css/style.css";
 
-import Navbar from '../components/admin/Sidebar';
+import Sidebar from '../components/admin/Sidebar';
+import Header from '../components/admin/Header';
 
 export const metadata = {
     title: 'KDPLAYBACK | DASHBOARD',
@@ -26,7 +27,11 @@ export default function Dashboard() {
     return (
         <div class="dark:bg-boxdark-2 dark:text-bodydark">
             <div class="flex h-screen overflow-hidden">
-                <Navbar />
+                <Sidebar />
+
+                <div class="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
+                    <Header/>
+                </div>
 
             </div>
         </div>
