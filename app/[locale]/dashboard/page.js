@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import { FaTwitter } from "react-icons/fa";
 
 // import "jsvectormap/dist/css/jsvectormap.css";
 // import "flatpickr/dist/flatpickr.min.css";
@@ -8,6 +7,7 @@ import "@/public/tailadmin/css/style.css";
 
 import Sidebar from '../components/admin/Sidebar';
 import Header from '../components/admin/Header';
+import CardDataStats from './view/CardDataStats';
 
 export const metadata = {
     title: 'KDPLAYBACK | DASHBOARD',
@@ -31,8 +31,13 @@ export default function Dashboard() {
 
                 <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
                     <Header/>
-                </div>
 
+                    <main>
+                        <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
+                            <CardDataStats/>
+                        </div>
+                    </main>
+                </div>
             </div>
         </div>
     )
