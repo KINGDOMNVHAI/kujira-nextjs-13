@@ -25,11 +25,11 @@ export default function Dashboard() {
     const tAbout = useTranslations('dashboard');
 
     return (
-        <div class="dark:bg-boxdark-2 dark:text-bodydark">
-            <div class="flex h-screen overflow-hidden">
+        <div className="dark:bg-boxdark-2 dark:text-bodydark">
+            <div className="flex h-screen overflow-hidden">
                 <Sidebar />
 
-                <div class="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
+                <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
                     <Header/>
                 </div>
 

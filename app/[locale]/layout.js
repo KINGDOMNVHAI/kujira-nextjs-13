@@ -2,9 +2,6 @@ import { useLocale } from 'next-intl';
 import { Inter } from 'next/font/google'
 import '@/app/globals.css';
 
-import Footer from './components/frontend/Footer';
-import Navbar from './components/frontend/Navbar';
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -31,7 +28,6 @@ export default function RootLayout({ children, params }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
-      <Footer />
     </html>
   )
 }

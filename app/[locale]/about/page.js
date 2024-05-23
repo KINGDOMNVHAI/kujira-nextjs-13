@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 // import "@/public/asset/youtube-ranking/css/style.css";
 // import "@/public/asset/youtube-ranking/css/bootstrap.min.css";
 
+import Footer from '../components/frontend/Footer';
 import Navbar from '../components/frontend/Navbar';
 
 export const metadata = {
@@ -70,6 +71,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
