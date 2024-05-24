@@ -174,5 +174,6 @@ Trong {children} dẫn đến các file page.js ở app->[locale]
 
 ==================== Giao diện template ====================
 https://tailadmin.com/download
+https://nextjs-demo.tailadmin.com/
 Download template bản .tsx
 Chuyển dần qua source .jsx

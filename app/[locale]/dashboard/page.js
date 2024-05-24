@@ -22,7 +22,7 @@ export const metadata = {
 
 export default function Dashboard() {
 
-    const tAbout = useTranslations('dashboard');
+    const tDashboard = useTranslations('dashboard');
 
     return (
         <div className="dark:bg-boxdark-2 dark:text-bodydark">
