@@ -8,6 +8,8 @@ import "@/public/tailadmin/css/style.css";
 import Sidebar from '../components/admin/Sidebar';
 import Header from '../components/admin/Header';
 import Breadcrumb from '../components/admin/Breadcrumb';
+import CheckboxOne from '../components/admin/CheckboxOne';
+import SelectGroupTwo from '../components/admin/SelectGroupTwo';
 import SwitcherOne from './view/SwitcherOne';
 
 export const metadata = {
@@ -91,7 +93,7 @@ export default function FormElements() {
                                             </h3>
                                         </div>
                                         <div className="flex flex-col gap-5.5 p-6.5">
-                                            <SwitcherOne/>
+                                            <SwitcherOne />
 
                                         </div>
                                     </div>
@@ -162,6 +164,73 @@ export default function FormElements() {
                                                     <span class="font-medium text-black dark:text-white">Drop files here to upload</span>
                                                 </div>
                                             </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-col gap-3">
+                                    <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+                                        <div className="border-b border-stroke px-6.5 py-4 dark:border-strokedark">
+                                            <h3 className="font-medium text-black dark:text-white">
+                                                Textarea Fields
+                                            </h3>
+                                        </div>
+                                        <div className="flex flex-col gap-5.5 p-6.5">
+                                            <div>
+                                                <label className="mb-3 block text-sm font-medium text-black dark:text-white">
+                                                    Default textarea
+                                                </label>
+                                                <textarea
+                                                    rows={6}
+                                                    placeholder="Default textarea"
+                                                    className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
+                                                ></textarea>
+                                            </div>
+
+                                            <div>
+                                                <label className="mb-3 block text-sm font-medium text-black dark:text-white">
+                                                    Active textarea
+                                                </label>
+                                                <textarea
+                                                    rows={6}
+                                                    placeholder="Active textarea"
+                                                    className="w-full rounded-lg border-[1.5px] border-primary bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:bg-form-input dark:text-white"
+                                                ></textarea>
+                                            </div>
+
+                                            <div>
+                                                <label className="mb-3 block text-sm font-medium text-black dark:text-white">
+                                                    Disabled textarea
+                                                </label>
+                                                <textarea
+                                                    rows={6}
+                                                    disabled
+                                                    placeholder="Disabled textarea"
+                                                    className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary dark:disabled:bg-black"
+                                                ></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+                                        <div className="border-b border-stroke px-6.5 py-4 dark:border-strokedark">
+                                            <h3 className="font-medium text-black dark:text-white">
+                                                Checkbox and radio
+                                            </h3>
+                                        </div>
+                                        <div className="flex flex-col gap-5.5 p-6.5">
+                                            <CheckboxOne />
+                                        </div>
+                                    </div>
+
+                                    <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+                                        <div className="border-b border-stroke px-6.5 py-4 dark:border-strokedark">
+                                            <h3 className="font-medium text-black dark:text-white">
+                                                Select input
+                                            </h3>
+                                        </div>
+                                        <div className="flex flex-col gap-5.5 p-6.5">
+                                            <SelectGroupTwo />
                                         </div>
                                     </div>
                                 </div>

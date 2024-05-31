@@ -8,6 +8,7 @@ import "@/public/tailadmin/css/style.css";
 import Sidebar from '../components/admin/Sidebar';
 import Header from '../components/admin/Header';
 import CardDataStats from './view/CardDataStats';
+import TableOne from './view/TableOne';
 
 export const metadata = {
     title: 'KDPLAYBACK | DASHBOARD',
@@ -35,6 +36,14 @@ export default function Dashboard() {
                     <main>
                         <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
                             <CardDataStats/>
+
+                            <div className="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
+                                <div className="col-span-12 xl:col-span-8">
+                                    <TableOne />
+                                </div>
+                            </div>
+
+
                         </div>
                     </main>
                 </div>

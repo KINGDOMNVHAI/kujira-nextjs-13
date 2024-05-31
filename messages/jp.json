@@ -63,11 +63,17 @@
         "title": "This is dashboard page!",
         "number-of-channels": "number of channels"
     },
+    "calendar": {
+        "title": "カレンダー"
+    },
+    "profile": {
+        "title": "プロフィール"
+    },
 
 
 
 
-    
+
     "message": {
         "request-login": "Request login",
         "request-login-18-plus": "Nội dung chỉ dành cho độ tuổi 18+. Yêu cầu đăng nhập để xác định độ tuổi."
