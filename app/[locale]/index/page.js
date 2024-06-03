@@ -2,11 +2,21 @@ import Link from 'next-intl/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
-// import "@/public/asset/youtube-ranking/css/style.css";
-// import "@/public/asset/youtube-ranking/css/bootstrap.min.css";
+import "@/public/skillgro/assets/css/bootstrap.min.css";
+import "@/public/skillgro/assets/css/animate.min.css";
+import "@/public/skillgro/assets/css/magnific-popup.css";
+// import "@/public/skillgro/assets/css/fontawesome-all.min.css";
+// import "@/public/skillgro/assets/css/flaticon-skillgro.css";
+import "@/public/skillgro/assets/css/swiper-bundle.min.css";
+// import "@/public/skillgro/assets/css/default-icons.css";
+import "@/public/skillgro/assets/css/odometer.css";
+import "@/public/skillgro/assets/css/aos.css";
+import "@/public/skillgro/assets/css/spacing.css";
+import "@/public/skillgro/assets/css/tg-cursor.css";
+import "@/public/skillgro/assets/css/main.css";
 
 // import SearchView from "./view/SearchView";
-// import Navbar from '../components/frontend/Navbar';
+import Navbar from '../components/frontend/Navbar';
 
 export default function Index() {
 
@@ -28,4 +38,14 @@ export default function Index() {
 
     // Gắn giao diện skillgro
 
+    return (
+        <div>
+            <Navbar />
+
+            <main class="main-area fix">
+
+
+            </main>
+        </div>
+    )
 }
