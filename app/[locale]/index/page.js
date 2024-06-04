@@ -54,7 +54,7 @@ export default function Index() {
                         <div className="row justify-content-between align-items-start">
                             <div className="col-xl-5 col-lg-6">
                                 <div className="banner__content">
-                                    <h3 className="title tg-svg" data-aos="fade-right" data-aos-delay="400">
+                                    <h3 className="title tg-svg">
                                         Never Stop
                                         <span className="position-relative">
                                             <span className="svg-icon" id="banner-svg" data-svg-icon="/skillgro/assets/img/objects/title_shape.svg"></span>
@@ -65,8 +65,8 @@ export default function Index() {
                                         </span>
                                         <br />Life <b>Never Stop</b> Teaching
                                     </h3>
-                                    <p data-aos="fade-right" data-aos-delay="600">Every teaching and learning journey is unique Following We'll help guide your way.</p>
-                                    <div className="banner__btn-wrap" data-aos="fade-right" data-aos-delay="800">
+                                    <p>Every teaching and learning journey is unique Following We'll help guide your way.</p>
+                                    <div className="banner__btn-wrap">
                                         <a href="contact.html" className="btn arrow-btn">Start Free Trial
                                             <GoArrowRight />
                                         </a>
@@ -83,12 +83,12 @@ export default function Index() {
                                         alt="Logo"
                                     />
 
-                                    <div className="shape big-shape" data-aos="fade-up-right" data-aos-delay="600">
+                                    <div className="shape big-shape">
                                         <Image
                                             src={"/skillgro/assets/img/banner/banner_shape01.png"}
                                             className="tg-motion-effects1"
-                                            width={150}
-                                            height={150}
+                                            width={618}
+                                            height={432}
                                             alt="shape"
                                         />
                                     </div>
@@ -258,6 +258,207 @@ export default function Index() {
                         </div>
                     </div>
                 </section>
+
+                <section className="features__area">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-xl-6">
+                                <div className="section__title white-title text-center mb-50">
+                                    <span className="sub-title">How We Start Journey</span>
+                                    <h2 className="title">Start your Learning Journey Today!</h2>
+                                    <p>Groove’s intuitive shared inbox makesteam members together <br/> organize, prioritize and.In this episode.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row justify-content-center">
+                            <div className="col-xl-3 col-lg-4 col-md-6">
+                                <div className="features__item">
+                                    <div className="features__icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icons/features_icon01.svg"}
+                                            className="injectable"
+                                            width={94}
+                                            height={94}
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div className="features__content">
+                                        <h4 className="title">Learn with Experts</h4>
+                                        <p>Curate anding area share Pluralsight content to reach your</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6">
+                                <div className="features__item">
+                                    <div className="features__icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icons/features_icon02.svg"}
+                                            className="injectable"
+                                            width={94}
+                                            height={94}
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div className="features__content">
+                                        <h4 className="title">Learn Anything</h4>
+                                        <p>Curate anding area share Pluralsight content to reach your</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6">
+                                <div className="features__item">
+                                    <div className="features__icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icons/features_icon03.svg"}
+                                            className="injectable"
+                                            width={94}
+                                            height={94}
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div className="features__content">
+                                        <h4 className="title">Get Online Certificate</h4>
+                                        <p>Curate anding area share Pluralsight content to reach your</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6">
+                                <div className="features__item">
+                                    <div className="features__icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icons/features_icon04.svg"}
+                                            className="injectable"
+                                            width={94}
+                                            height={94}
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div className="features__content">
+                                        <h4 className="title">E-mail Marketing</h4>
+                                        <p>Curate anding area share Pluralsight content to reach your</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="blog__post-area">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-6">
+                                <div className="section__title text-center mb-40">
+                                    <span className="sub-title">News & Blogs</span>
+                                    <h2 className="title">Our Latest News Feed</h2>
+                                    <p>when known printer took a galley of type scrambl edmake</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row gutter-20">
+                            <div className="col-xl-3 col-md-6">
+                                <div className="blog__post-item shine__animate-item">
+                                    <div className="blog__post-thumb">
+                                        <a href="blog-details.html" className="shine__animate-link">
+                                            <Image
+                                                src={"/skillgro/assets/img/blog/blog_post01.jpg"}
+                                                className="line-shape"
+                                                width={698}
+                                                height={544}
+                                                alt="img"
+                                            />
+                                        </a>
+                                        <a href="blog.html" className="post-tag">Marketing</a>
+                                    </div>
+                                    <div className="blog__post-content">
+                                        <div className="blog__post-meta">
+                                            <ul className="list-wrap">
+                                                <li><i className="flaticon-calendar"></i>20 July, 2024</li>
+                                                <li><i className="flaticon-user-1"></i>by <a href="blog-details.html">Admin</a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 className="title"><a href="blog-details.html">How To Become idiculously Self-Aware In 20 Minutes</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-md-6">
+                                <div className="blog__post-item shine__animate-item">
+                                    <div className="blog__post-thumb">
+                                        <a href="blog-details.html" className="shine__animate-link">
+                                            <Image
+                                                src={"/skillgro/assets/img/blog/blog_post02.jpg"}
+                                                className="line-shape"
+                                                width={698}
+                                                height={544}
+                                                alt="img"
+                                            />
+                                        </a>
+                                        <a href="blog.html" className="post-tag">Marketing</a>
+                                    </div>
+                                    <div className="blog__post-content">
+                                        <div className="blog__post-meta">
+                                            <ul className="list-wrap">
+                                                <li><i className="flaticon-calendar"></i>20 July, 2024</li>
+                                                <li><i className="flaticon-user-1"></i>by <a href="blog-details.html">Admin</a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 className="title"><a href="blog-details.html">Get Started With UI Design With Tips To Speed</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-md-6">
+                                <div className="blog__post-item shine__animate-item">
+                                    <div className="blog__post-thumb">
+                                        <a href="blog-details.html" className="shine__animate-link">
+                                            <Image
+                                                src={"/skillgro/assets/img/blog/blog_post03.jpg"}
+                                                className="line-shape"
+                                                width={698}
+                                                height={544}
+                                                alt="img"
+                                            />
+                                        </a>
+                                        <a href="blog.html" className="post-tag">Marketing</a>
+                                    </div>
+                                    <div className="blog__post-content">
+                                        <div className="blog__post-meta">
+                                            <ul className="list-wrap">
+                                                <li><i className="flaticon-calendar"></i>20 July, 2024</li>
+                                                <li><i className="flaticon-user-1"></i>by <a href="blog-details.html">Admin</a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 className="title"><a href="blog-details.html">Make Your Own Expanding Contracting Content</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-md-6">
+                                <div className="blog__post-item shine__animate-item">
+                                    <div className="blog__post-thumb">
+                                        <a href="blog-details.html" className="shine__animate-link">
+                                            <Image
+                                                src={"/skillgro/assets/img/blog/blog_post04.jpg"}
+                                                className="line-shape"
+                                                width={698}
+                                                height={544}
+                                                alt="img"
+                                            />
+                                        </a>
+                                        <a href="blog.html" className="post-tag">Marketing</a>
+                                    </div>
+                                    <div className="blog__post-content">
+                                        <div className="blog__post-meta">
+                                            <ul className="list-wrap">
+                                                <li><i className="flaticon-calendar"></i>20 July, 2024</li>
+                                                <li><i className="flaticon-user-1"></i>by <a href="blog-details.html">Admin</a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 className="title"><a href="blog-details.html">What we are capable to usually discovered</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </main>
         </div>
     )
