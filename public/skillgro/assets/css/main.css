@@ -6703,7 +6703,7 @@ textarea {
 ===============================*/
 .features__area {
   background: var(--tg-common-color-blue-2);
-  padding: 120px 0 90px;
+  padding: 120px 0 200px;
 }
 @media (max-width: 767.98px) {
   .features__area {

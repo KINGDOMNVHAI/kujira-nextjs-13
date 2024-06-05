@@ -37,8 +37,7 @@ export default function Navbar() {
 
     return (
         <div>
-
-<button className="scroll__top scroll-to-target pl-1" data-target="html">
+            <button className="scroll__top scroll-to-target pl-1" data-target="html">
                 <FaArrowUp size={20} />
             </button>
 
@@ -310,10 +309,9 @@ export default function Navbar() {
                                         <div className="social-links">
                                             <ul className="list-wrap">
                                                 <li><a href="#"><FaFacebookF size={16} color='#FFF' /></a></li>
-                                                <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                                                <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                                                <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+                                                <li><a href="#"><RiTwitterXFill size={16} color='#FFF' /></a></li>
+                                                <li><a href="#"><FaLinkedinIn size={16} color='#FFF' /></a></li>
+                                                <li><a href="#"><FaYoutube size={16} color='#FFF' /></a></li>
                                             </ul>
                                         </div>
                                     </nav>

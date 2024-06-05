@@ -276,7 +276,7 @@ export default function Index() {
                                     <div className="features__icon">
                                         <Image
                                             src={"/skillgro/assets/img/icons/features_icon01.svg"}
-                                            className="injectable"
+                                            className="injectable mg-auto"
                                             width={94}
                                             height={94}
                                             alt="img"
@@ -293,7 +293,7 @@ export default function Index() {
                                     <div className="features__icon">
                                         <Image
                                             src={"/skillgro/assets/img/icons/features_icon02.svg"}
-                                            className="injectable"
+                                            className="injectable mg-auto"
                                             width={94}
                                             height={94}
                                             alt="img"
@@ -310,7 +310,7 @@ export default function Index() {
                                     <div className="features__icon">
                                         <Image
                                             src={"/skillgro/assets/img/icons/features_icon03.svg"}
-                                            className="injectable"
+                                            className="injectable mg-auto"
                                             width={94}
                                             height={94}
                                             alt="img"
@@ -327,7 +327,7 @@ export default function Index() {
                                     <div className="features__icon">
                                         <Image
                                             src={"/skillgro/assets/img/icons/features_icon04.svg"}
-                                            className="injectable"
+                                            className="injectable mg-auto"
                                             width={94}
                                             height={94}
                                             alt="img"
