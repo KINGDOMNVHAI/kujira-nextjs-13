@@ -45,11 +45,18 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
     const trigger = useRef(null);
     const sidebar = useRef(null);
 
+    const [isActiveSubmenuForm, setIsActiveSubmenuForm] = useState(true);
+
     let storedSidebarExpanded = "true";
 
     const [sidebarExpanded, setSidebarExpanded] = useState(
         storedSidebarExpanded === null ? false : storedSidebarExpanded === "true",
     );
+
+    const clickHiddenSubmenuForm = () => {
+        setIsActiveSubmenuForm(!isActiveSubmenuForm);
+        console.log(isActiveSubmenuForm)
+    };
 
     return (
         <aside
@@ -126,11 +133,18 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
                                 </div>
                             </li>
                             <li>
-                                <a className="group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 false" href="#">
+                                <a className="group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 false"
+                                    href="#"
+                                    onClick={clickHiddenSubmenuForm}
+                                >
                                     <FaFileAlt /> Forms
-                                    <FaAngleRight className="absolute right-4 top-1/2 -translate-y-1/2 fill-current false" size={20}/>
+
+
+                                    <FaAngleDown className="absolute right-4 top-1/2 -translate-y-1/2 fill-current false" size={20}/>
+
+
                                 </a>
-                                <div className="translate transform overflow-hidden hidden">
+                                <div className={`${isActiveSubmenuForm ? 'false' : 'hidden'} translate transform overflow-hidden`}>
                                     <ul className="mb-5.5 mt-4 flex flex-col gap-2.5 pl-6">
                                         <li><a className="group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white false" href="/forms/form-elements">Form Elements</a></li>
                                         <li><a className="group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white false" href="/forms/pro-form-elements">Pro Form Elements<span className="absolute right-4 block rounded bg-primary px-2 py-1 text-xs font-medium text-white">Pro</span></a></li>

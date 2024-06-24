@@ -1,29 +1,39 @@
 {
     "common": {
+        "address": "address",
+        "channel": "channel",
+        "channels": "channels",
+        "connect": "connect",
+        "content": "content",
+        "email": "email",
+        "forgot-password": "forgot password",
+        "length": "length",
         "login": "login",
         "logout": "logout",
-        "sign-in": "sign in",
-        "register": "register",
+        "manager": "manager",
         "password": "password",
-        "forgot-password": "forgot password",
         "phone": "電話",
-        "email": "email",
-        "address": "address",
-        "total": "合計",
+        "register": "register",
+        "refresh": "refresh",
+        "reboot": "reboot",
+        "service": "サービス",
+        "sign-in": "sign in",
         "social-media": "social media",
-        "social-network": "social network"
+        "social-network": "social network",
+        "total": "合計"
     },
     "country": {
-        "english": "english",
-        "japan": "japan",
-        "korea": "korea",
-        "vietnam": "vietnam"
+        "english": "英語",
+        "japan": "日本語",
+        "korea": "韓国語",
+        "language": "言語",
+        "vietnam": "ベトナム語"
     },
     "navbar": {
-        "home": "Home (JP)",
-        "video": "Video",
         "about": "Home (JP)",
-        "contact": "Home (JP)"
+        "contact": "Home (JP)",
+        "home": "Home (JP)",
+        "video": "Video"
     },
     "homepage": {
         "welcome-message": "Welcome to The JavaScript Way",

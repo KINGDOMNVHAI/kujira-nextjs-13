@@ -1,29 +1,39 @@
 {
     "common": {
+        "address": "địa chỉ",
+        "channel": "kênh",
+        "channels": "channels",
+        "connect": "kết nối",
+        "content": "nội dung",
+        "email": "email",
+        "forgot-password": "quên mật khẩu",
+        "length": "length",
         "login": "đăng nhập",
         "logout": "đăng xuất",
-        "sign-in": "sign in",
-        "register": "đăng ký",
+        "manager": "quản lý",
         "password": "mật khẩu",
-        "forgot-password": "quên mật khẩu",
         "phone": "phone",
-        "email": "email",
-        "address": "địa chỉ",
-        "total": "tổng cộng",
+        "reboot": "reboot",
+        "refresh": "refresh",
+        "register": "đăng ký",
+        "service": "dịch vụ",
+        "sign-in": "sign in",
         "social-media": "social media",
-        "social-network": "mạng xã hội"
+        "social-network": "mạng xã hội",
+        "total": "tổng cộng"
     },
     "country": {
+        "language": "ngôn ngữ",
         "vietnam": "tiếng Việt",
         "english": "tiếng Anh",
         "japan": "tiếng Nhật",
         "korea": "tiếng Hàn"
     },
     "navbar": {
-        "home": "trang chủ",
-        "video": "video",
         "about": "giới thiệu",
-        "contact": "liên hệ"
+        "contact": "liên hệ",
+        "home": "trang chủ",
+        "video": "video"
     },
     "homepage": {
         "welcome-message": "Welcome to The JavaScript Way",

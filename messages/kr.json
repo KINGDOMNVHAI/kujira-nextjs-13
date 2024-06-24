@@ -1,29 +1,39 @@
 {
     "common": {
+        "address": "address",
+        "channel": "channel",
+        "channels": "channels",
+        "connect": "접속",
+        "content": "내용",
+        "email": "메일",
+        "forgot-password": "forgot password",
+        "length": "길이",
         "login": "login",
         "logout": "logout",
-        "sign-in": "sign in",
-        "register": "register",
+        "manager": "담당자",
         "password": "password",
-        "forgot-password": "forgot password",
         "phone": "핸드폰",
-        "email": "메일",
-        "address": "address",
-        "total": "total",
+        "register": "register",
+        "refresh": "새로고침",
+        "reboot": "리부팅",
+        "service": "서비스",
+        "sign-in": "sign in",
         "social-media": "social media",
-        "social-network": "social network"
+        "social-network": "social network",
+        "total": "total"
     },
     "country": {
         "english": "영어",
         "japan": "일본",
         "korea": "한국",
+        "language": "언어",
         "vietnam": "베트남"
     },
     "navbar": {
-        "home": "Home (KR)",
-        "video": "동영상",
         "about": "회사소개",
-        "contact": "문의하기"
+        "contact": "문의하기",
+        "home": "Home (KR)",
+        "video": "동영상"
     },
     "homepage": {
         "welcome-message": "Welcome to The JavaScript Way",
