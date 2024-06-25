@@ -138,11 +138,12 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
                                     onClick={clickHiddenSubmenuForm}
                                 >
                                     <FaFileAlt /> Forms
-
-
-                                    <FaAngleDown className="absolute right-4 top-1/2 -translate-y-1/2 fill-current false" size={20}/>
-
-
+                                    {
+                                        isActiveSubmenuForm === true ?
+                                        <FaAngleDown className="absolute right-4 top-1/2 -translate-y-1/2 fill-current false" size={20}/>
+                                        :
+                                        <FaAngleRight className="absolute right-4 top-1/2 -translate-y-1/2 fill-current false" size={20}/>
+                                    }
                                 </a>
                                 <div className={`${isActiveSubmenuForm ? 'false' : 'hidden'} translate transform overflow-hidden`}>
                                     <ul className="mb-5.5 mt-4 flex flex-col gap-2.5 pl-6">

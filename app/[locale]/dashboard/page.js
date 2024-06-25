@@ -8,6 +8,7 @@ import "@/public/tailadmin/css/style.css";
 import Sidebar from '../components/admin/Sidebar';
 import Header from '../components/admin/Header';
 import CardDataStats from './view/CardDataStats';
+import ChartColumn from './view/ChartColumn';
 import TableOne from './view/TableOne';
 
 export const metadata = {
@@ -41,7 +42,11 @@ export default function Dashboard() {
                                 <div className="col-span-12 xl:col-span-8">
                                     <TableOne />
                                 </div>
+                                <div className="col-span-12 xl:col-span-4">
+                                    <ChartColumn />
+                                </div>
                             </div>
+
 
 
                         </div>
