@@ -177,3 +177,6 @@ https://tailadmin.com/download
 https://nextjs-demo.tailadmin.com/
 Download template bản .tsx
 Chuyển dần qua source .jsx
+
+Tin tức
+https://utouchdesign.com/themes/newsstor/index.html
