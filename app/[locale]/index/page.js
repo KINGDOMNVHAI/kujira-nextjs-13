@@ -18,8 +18,6 @@ import "@/public/skillgro/assets/css/main.css";
 import SwiperTopCategoryComponent from "./components/SwiperTopCategoryComponent";
 import Navbar from '../components/frontend/Navbar';
 
-import bannerBg from '@/public/skillgro/assets/img/banner/banner_bg.png';
-
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import { LuPenTool } from "react-icons/lu";
 import { RiCodeSSlashLine } from "react-icons/ri";
@@ -49,7 +47,7 @@ export default function Index() {
             <Navbar />
 
             <main className="main-area fix">
-                <section className="banner-area banner-bg tg-motion-effects" style={{ backgroundImage: `url(${bannerBg})` }}>
+                <section className="banner-area banner-bg tg-motion-effects" style={{ backgroundImage: `url(/skillgro/assets/img/banner/banner_bg.png)` }}>
                     <div className="container">
                         <div className="row justify-content-between align-items-start">
                             <div className="col-xl-5 col-lg-6">
@@ -144,7 +142,7 @@ export default function Index() {
                     <Image
                         src={"/skillgro/assets/img/banner/banner_shape01.svg"}
                         className="line-shape"
-                        width={618}
+                        width={200}
                         height={432}
                         alt="shape"
                     />
@@ -181,10 +179,10 @@ export default function Index() {
                                                 <div className="categories__item">
                                                     <a href="courses.html">
                                                         <div className="icon">
-                                                            <i className="flaticon-investment"></i>
+                                                            <LuPenTool />
                                                         </div>
-                                                        <span className="name">Finance</span>
-                                                        <span className="courses">(41)</span>
+                                                        <span className="name">Graphic Design</span>
+                                                        <span className="courses">(22)</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -252,6 +250,228 @@ export default function Index() {
                                         <button className="categories-button-next" style={{ padding: '12px' }}>
                                             <GoArrowRight size={24} />
                                         </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="features" class="feature-area pt-130 pb-130">
+                    <div class="container">
+                        <div class="section__title-wrap">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6">
+                                    <div class="section__title text-center mb-40">
+                                        <span class="sub-title">Top Class Courses</span>
+                                        <h2 class="title">Explore Our World's Best Courses</h2>
+                                        <p class="desc">When known printer took a galley of type scrambl edmake</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-item-three wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
+                                    <div class="feature-icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/f1.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="title">Easy to Customize</h4>
+                                        <p>Well structured and easy to customize code. Spend less time to customize.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-item-three wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                                    <div class="feature-icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/f2.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="title">Fully Responsive</h4>
+                                        <p>This template is fully responsive and easily compilable with all devices</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-item-three wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
+                                    <div class="feature-icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/f3.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="title">Retina Ready</h4>
+                                        <p>Through nuanced stakeholder relations and astute partnership building.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-item-three wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
+                                    <div class="feature-icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/f4.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="title">Dedicated Support</h4>
+                                        <p>Our support staff is ready to answer all your questions 7 days a week</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-item-three wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                                    <div class="feature-icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/f5.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="title">Cross browser tested</h4>
+                                        <p>It works across different browsers as expected and degrades gracefully.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-item-three wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
+                                    <div class="feature-icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/f6.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4 class="title">Clean And Modern</h4>
+                                        <p>Through nuanced stakeholder relations and astute partnership building.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="features-item-two">
+                                    <div class="icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/icon_01.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title">Bootstrap v5.3.2</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="features-item-two">
+                                    <div class="icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/icon_02.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title">Swiper Slider</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="features-item-two">
+                                    <div class="icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/icon_03.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title">Flat Icon</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="features-item-two">
+                                    <div class="icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/icon_04.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title">FontAwesome Icon</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="features-item-two">
+                                    <div class="icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/icon_05.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title">Html5</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="features-item-two">
+                                    <div class="icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/icon_06.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title">Saas</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="features-item-two">
+                                    <div class="icon">
+                                        <Image
+                                            src={"/skillgro/assets/img/icon/icon_07.png"}
+                                            width={92}
+                                            height={65}
+                                            alt="shape"
+                                        />
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="title">Jquery</h6>
                                     </div>
                                 </div>
                             </div>
