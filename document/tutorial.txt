@@ -189,3 +189,6 @@ https://www.templatemonster.com/website-templates.php?text=schedule
 https://www.templatemonster.com/category/movie-html-website-templates/
 https://inews.cbtemplates.com/index.html
 https://oneanime.soulknightweb.com/
+
+Next.js Alert / Toaster Notification
+https://jasonwatmore.com/post/2021/08/26/next-js-alert-toaster-notifications
