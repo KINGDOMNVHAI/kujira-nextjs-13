@@ -261,6 +261,10 @@ input[type=color] {
   text-shadow: none;
 }
 
+.text-color-white {
+  color: #FFF;
+}
+
 /*=============================
     - Input Placeholder
 ===============================*/

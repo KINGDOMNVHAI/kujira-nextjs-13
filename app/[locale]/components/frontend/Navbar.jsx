@@ -224,6 +224,7 @@ export default function Navbar() {
                                                         </li>
                                                     </ul>
                                                 </li>
+                                                <li className="menu-item"><a href="#">Dashboard &nbsp;</a></li>
                                             </ul>
                                         </div>
                                         <div className="tgmenu__search d-none d-md-block">
