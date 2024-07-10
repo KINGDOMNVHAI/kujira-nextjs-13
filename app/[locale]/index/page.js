@@ -17,6 +17,7 @@ import "@/public/skillgro/assets/css/main.css";
 
 import SwiperTopCategoryComponent from "./components/SwiperTopCategoryComponent";
 import Navbar from '../components/frontend/Navbar';
+import Footer from '../components/frontend/Footer';
 
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import { LuPenTool } from "react-icons/lu";
@@ -676,6 +677,8 @@ export default function Index() {
                 </section>
 
             </main>
+
+            <Footer/>
         </div>
     )
 }

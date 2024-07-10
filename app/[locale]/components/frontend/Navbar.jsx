@@ -251,16 +251,26 @@ export default function Navbar() {
                                         <div className="tgmenu__action">
                                             <ul className="list-wrap">
                                                 <li className="wishlist-icon">
-                                                    <a href="cart.html" className="cart-count">
-                                                        <FaRegHeart className='injectable' size={20} color='#FFF' />
-                                                        <span className="wishlist-count">0</span>
-                                                    </a>
+                                                    <Link className="cart-count" href={"/"}>
+                                                        <Image
+                                                            src={"https://html.themegenix.com/skillgro/assets/img/icons/heart.svg"}
+                                                            width={20}
+                                                            height={20}
+                                                            alt="cart"
+                                                        />
+                                                        <span className="mini-cart-count">0</span>
+                                                    </Link>
                                                 </li>
                                                 <li className="mini-cart-icon">
-                                                    <a href="cart.html" className="cart-count">
-                                                        <BsCart4 className='injectable' size={20} color='#FFF' />
+                                                    <Link className="cart-count" href={"/"}>
+                                                        <Image
+                                                            src={"https://html.themegenix.com/skillgro/assets/img/icons/cart.svg"}
+                                                            width={20}
+                                                            height={20}
+                                                            alt="cart"
+                                                        />
                                                         <span className="mini-cart-count">0</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="header-btn login-btn">
                                                     <a href="login.html">Log in</a>
