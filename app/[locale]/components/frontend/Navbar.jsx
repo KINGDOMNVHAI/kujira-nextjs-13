@@ -129,21 +129,21 @@ export default function Navbar() {
                                                         </li>
                                                         <li>
                                                             <div className="mega-menu-img">
-                                                                <a href="courses.html">
+                                                                <Link href={"/course"}>
                                                                     <Image
                                                                         src={"/skillgro/assets/img/others/mega_menu_img.jpg"}
                                                                         width={150}
                                                                         height={150}
                                                                         alt="Logo"
                                                                     />
-                                                                </a>
+                                                                </Link>
                                                             </div>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children"><a href="#">Courses &nbsp; <FaChevronDown/></a>
                                                     <ul className="sub-menu">
-                                                        <li><a href="courses.html">All Courses</a></li>
+                                                        <li><Link href={"/course"}>All Courses</Link></li>
                                                         <li><a href="course-details.html">Course Details</a></li>
                                                         <li><a href="lesson.html">Course Lesson</a></li>
                                                     </ul>

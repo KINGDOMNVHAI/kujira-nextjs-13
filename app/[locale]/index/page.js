@@ -15,29 +15,25 @@ import "@/public/skillgro/assets/css/spacing.css";
 import "@/public/skillgro/assets/css/tg-cursor.css";
 import "@/public/skillgro/assets/css/main.css";
 
-import SwiperTopCategoryComponent from "./components/SwiperTopCategoryComponent";
 import Navbar from '../components/frontend/Navbar';
 import Footer from '../components/frontend/Footer';
 
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import { LuPenTool } from "react-icons/lu";
-import { RiCodeSSlashLine } from "react-icons/ri";
 
 export default function Index() {
 
     const tChannel = useTranslations('channel-list');
-    const tSearchView = useTranslations('search-view');
     const tCommon = useTranslations('common');
+    const tSearchView = useTranslations('search-view');
 
     const transVO = {
+        "course": tSearchView('course'),
         "enter_your_keywords": tSearchView('enter-your-keywords'),
         "subcribe_filter": tSearchView('subcribe-filter'),
         "subcribe": tSearchView('subcribe'),
         "increase": tSearchView('increase'),
         "decrease": tSearchView('decrease'),
-        "vtuber": tSearchView('vtuber'),
         "development": tSearchView('development'),
-        "cosplay": tSearchView('cosplay'),
         "total": tCommon('total'),
     }
 
@@ -167,16 +163,16 @@ export default function Index() {
                                 <div class="col-30">
                                     <div class="event__content">
                                         <div class="section__title mb-20">
-                                            <span class="sub-title">Tiếng Nhật</span>
+                                            <span class="sub-title">{tCommon('course')}</span>
                                             <h2 class="title">Join Our Community And Make it Bigger</h2>
                                         </div>
                                         <p>Edhen an unknown printer took a galley acrambled make a type specimen bookas centuries.Edhen anderely unknown printer took a galley.</p>
                                         <div className="tg-button-wrap">
                                             <Link
                                                 className="btn arrow-btn"
-                                                href="/messages"
+                                                href="/course"
                                             >
-                                                See All Events
+                                                See All Courses
                                                 <Image
                                                     src={"/skillgro/assets/img/icons/right_arrow.svg"}
                                                     className="injectable"

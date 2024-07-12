@@ -3,14 +3,18 @@
         "address": "address",
         "channel": "channel",
         "channels": "channels",
+        "company": "company",
         "connect": "connect",
         "content": "content",
+        "department": "department",
         "email": "email",
         "forgot-password": "forgot password",
         "length": "length",
         "login": "login",
         "logout": "logout",
+        "management": "management",
         "manager": "manager",
+        "name": "name",
         "password": "password",
         "phone": "phone",
         "register": "register",
@@ -37,7 +41,8 @@
     },
     "homepage": {
         "welcome-message": "Welcome to The JavaScript Way",
-        "topic": "Topic getting covered: Next JS 13.4.4 + i18n"
+        "topic": "Topic getting covered: Next JS 13.4.4 + i18n",
+        "see-all-courses": "See All Courses"
     },
     "about": {
         "title": "Give info, give benefit!",

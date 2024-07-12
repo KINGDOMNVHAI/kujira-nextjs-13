@@ -3,14 +3,20 @@
         "address": "address",
         "channel": "channel",
         "channels": "channels",
+        "company": "회사",
         "connect": "접속",
         "content": "내용",
+        "course": "강의",
+        "courses": "courses",
+        "department": "부서",
         "email": "메일",
         "forgot-password": "forgot password",
         "length": "길이",
         "login": "login",
         "logout": "logout",
+        "management": "관리",
         "manager": "담당자",
+        "name": "성명",
         "password": "password",
         "phone": "핸드폰",
         "register": "register",
@@ -37,7 +43,8 @@
     },
     "homepage": {
         "welcome-message": "Welcome to The JavaScript Way",
-        "topic": "Topic getting covered: Next JS 13.4.4 + i18n"
+        "topic": "Topic getting covered: Next JS 13.4.4 + i18n",
+        "see-all-courses": "See All Courses"
     },
     "about": {
         "title": "Give info, give benefit!",

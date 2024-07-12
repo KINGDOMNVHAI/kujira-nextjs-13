@@ -3,14 +3,20 @@
         "address": "địa chỉ",
         "channel": "kênh",
         "channels": "channels",
+        "company": "công ty",
         "connect": "kết nối",
         "content": "nội dung",
+        "course": "khóa học",
+        "courses": "các khóa học",
+        "department": "department",
         "email": "email",
         "forgot-password": "quên mật khẩu",
         "length": "length",
         "login": "đăng nhập",
         "logout": "đăng xuất",
+        "management": "management",
         "manager": "quản lý",
+        "name": "tên",
         "password": "mật khẩu",
         "phone": "phone",
         "reboot": "reboot",
@@ -37,7 +43,8 @@
     },
     "homepage": {
         "welcome-message": "Welcome to The JavaScript Way",
-        "topic": "Topic getting covered: Next JS 13.4.4 + i18n"
+        "topic": "Topic getting covered: Next JS 13.4.4 + i18n",
+        "see-all-courses": "Các khóa học khác"
     },
     "about": {
         "title": "Cung cấp thông tin, cung cấp lợi ích!",
