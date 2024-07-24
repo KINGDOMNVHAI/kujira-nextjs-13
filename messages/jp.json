@@ -1,6 +1,6 @@
 {
     "common": {
-        "address": "address",
+        "address": "住所",
         "channel": "channel",
         "channels": "channels",
         "company": "会社",
@@ -8,6 +8,7 @@
         "content": "content",
         "course": "course",
         "courses": "courses",
+        "dashboard": "dashboard",
         "department": "デパート",
         "email": "email",
         "forgot-password": "forgot password",
@@ -18,13 +19,17 @@
         "manager": "manager",
         "password": "password",
         "phone": "電話",
+        "profile": "profile",
+        "project": "project",
         "register": "register",
         "refresh": "refresh",
         "reboot": "reboot",
+        "report": "レポート",
         "service": "サービス",
         "sign-in": "sign in",
         "social-media": "social media",
         "social-network": "social network",
+        "task": "task",
         "total": "合計"
     },
     "country": {

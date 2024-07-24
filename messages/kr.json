@@ -1,6 +1,6 @@
 {
     "common": {
-        "address": "address",
+        "address": "주소",
         "channel": "channel",
         "channels": "channels",
         "company": "회사",
@@ -8,6 +8,7 @@
         "content": "내용",
         "course": "강의",
         "courses": "courses",
+        "dashboard": "대시보드",
         "department": "부서",
         "email": "메일",
         "forgot-password": "forgot password",
@@ -17,15 +18,19 @@
         "management": "관리",
         "manager": "담당자",
         "name": "성명",
-        "password": "password",
+        "password": "비밀번호",
         "phone": "핸드폰",
+        "profile": "프로파일",
+        "project": "프로젝트",
         "register": "register",
         "refresh": "새로고침",
         "reboot": "리부팅",
+        "report": "보고서",
         "service": "서비스",
         "sign-in": "sign in",
         "social-media": "social media",
         "social-network": "social network",
+        "task": "작압",
         "total": "total"
     },
     "country": {
